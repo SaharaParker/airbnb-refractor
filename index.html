@@ -5,30 +5,18 @@
     <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences</title>
     <link rel="stylesheet" href="tailwind.css">
 </head>
-   <body class="bg-black flex">
+   <body>
 
-        <div>
-            <div><label for="mobile-search"></label><input type="search" value="Where are you going?" id="mobile-search" type="text"></div>
-            <div></div>
-        </div>
-
-        <div class="flex">
-            <img src="images/airbnb.png" alt="airbnblogo" class="h-10 w-10">
-        </div>
-
-        <div class="flex text-gray-400 font-bold p-10 m-4">
-            <a href="">Places to stay</a>
-            <a href="">Experiences</a>
-            <a href="">Online Experiences</a>
-        </div>
-
-        <div class="flex justify-items-stretch p-10">
-            <label>
-                <input type="text" placeholder="Where are you going?" class="border-2 rounded-2xl">
-                <input type="text" placeholder="Add Dates" class="border-2 rounded-2xl">
-                <input type="text" placeholder="Add Dates" class="border-2 rounded-2xl">
-                <input type="text" placeholder="Add Guests" class="border-2 rounded-2xl">
-            </label>
+        <div class="flex flex-col justify-between bg-gray-200 h-screen items-center">
+            <div>
+                <label for="mobile-search"></label><input type="search" value="Where are you going?" id="mobile-search" class="bg-pink-200 p-2 rounded-full">
+            </div>
+            <div class="flex flex-col items-center">
+                <h1>Not sure where to go? Perfect.</h1>
+                <button class="bg-gray-300 py-2 px-4">
+                    Submit
+                </button>
+            </div>
         </div>
    </body>
 </html>
